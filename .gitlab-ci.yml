@@ -1,0 +1,10 @@
+stages:
+  - release
+
+release:
+  image: node:6
+  stage: release
+  only:
+    - master
+  script:
+    - $(yarn bin)/semantic-release-gitlab
