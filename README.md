@@ -1,3 +1,1 @@
-PoC project which tests automatic push to GitHub and semantic release.
-
-Added push to GitLab.
+PoC project which tests automatic push from GitLab to GitHub with semantic release.
