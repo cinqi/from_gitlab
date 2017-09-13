@@ -1,0 +1,22 @@
+{
+  "name": "gitlab_to_github_poc",
+  "version": "1.0.0",
+  "description": "PoC testing GitLab to GitHub with semantic release",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/cinqi/gitlab_to_github_poc.git"
+  },
+  "author": "Tuomas Rissanen <rice@iki.fi>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/cinqi/gitlab_to_github_poc/issues"
+  },
+  "homepage": "https://gitlab.com/cinqi/gitlab_to_github_poc#README",
+  "dependencies": {
+    "semantic-release-gitlab": "^4.0.17"
+  }
+}
