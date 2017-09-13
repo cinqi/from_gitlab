@@ -7,4 +7,5 @@ release:
   only:
     - master
   script:
+    - yarn
     - $(yarn bin)/semantic-release-gitlab
